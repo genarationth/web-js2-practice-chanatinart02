@@ -22,12 +22,12 @@ Work in pairs to complete the following table:
 | “1”                   |     1     |   1       |    true       |
 | NaN                   |    NaN      |  NaN        | false          |
 | Infinity              | Infinity | Infinity |     true             |
-| -Infinity             |          |          |           |
-| “”                    |          |          |           |
-| “20”                  |          |          |           |
-| “Twenty”              |          |          |           |
-| null                  |          |          |           |
-| undefinited           |          |          |           |
+| -Infinity             |  -Infinity        | -Infinity         |    true       |
+| “”                    |    0      |          |    false       |
+| “20”                  |    20      |    20      |      true     |
+| “Twenty”              |   NaN       |  Twenty        |   true        |
+| null                  |    0      |    null      |   false        |
+| undefined           |    NaN      |   undefined       |    false       |
 
 
 ## Part 2:  New contender
