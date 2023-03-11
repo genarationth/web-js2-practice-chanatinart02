@@ -12,16 +12,16 @@
 Work in pairs to complete the following table:
 
 | Value to be converted | number() | String() | Boolean() |
-|-----------------------|----------|----------|-----------|
-| false                 |          |          |           |
-| true                  |          |          |           |
-| 0                     |          |          |           |
-| 1                     |          |          |           |
-| “0”                   |          |          |           |
-| “000”                 |          |          |           |
-| “1”                   |          |          |           |
-| NaN                   |          |          |           |
-| Infinity              |          |          |           |
+|-----------------------|---------:|---------:|----------:|
+| false                 |   0      | false    |   false   |
+| true                  |    1     |    true  |   true    |
+| 0                     |    0     |    0     |   false   |
+| 1                     |    1     |    1     |    true   |
+| “0”                   |    0     |    0     |    true   |
+| “000”                 |    0     |    000   |    true   |          
+| “1”                   |     1     |   1       |    true       |
+| NaN                   |    NaN      |  NaN        | false          |
+| Infinity              | Infinity | Infinity |     true             |
 | -Infinity             |          |          |           |
 | “”                    |          |          |           |
 | “20”                  |          |          |           |
